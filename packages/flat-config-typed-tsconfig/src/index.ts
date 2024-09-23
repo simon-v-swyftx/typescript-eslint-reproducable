@@ -6,6 +6,6 @@ export class Service {
   ): void {
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const a = `someUrl/${id}`;
-                      //  ^ specifically not working when specifying package: @company/lib
+                      //  ^ specifically not working when specifying package: @company/core
   }
 }
