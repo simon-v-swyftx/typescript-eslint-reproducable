@@ -1,6 +1,8 @@
 {
   "name": "@company/core",
   "private": true,
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
   "exports": {
     ".": {
       "types": "./src/index.ts",
@@ -8,9 +10,8 @@
       "node": "./build/index.js"
     }
   },
-  "main": "./build/index.js",
   "scripts": {
-    "build": "npm run -T tsc -b",
+    "build": "tsc",
     "lint": "eslint"
   },
   "dependencies": {
