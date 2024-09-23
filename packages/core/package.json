@@ -14,8 +14,8 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "uuid": "^10.0.0",
-    "typescript": "^5.5.3"
+    "typescript": "^5.5.3",
+    "uuid": "^10.0.0"
   },
   "devDependencies": {
     "@types/uuid": "^10"

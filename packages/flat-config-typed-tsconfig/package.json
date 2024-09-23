@@ -10,9 +10,9 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@company/core": "workspace:*",
     "@types/eslint": "^9.6.1",
     "@types/eslint__js": "^8.42.3",
-    "@company/core": "workspace:*",
     "eslint": "^9.11.0",
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.6.0"
