@@ -11,6 +11,7 @@ export default tseslint.config(
         "error",
         {
           allow: [
+            // doesn't appear to be working
             {
               from: "package",
               name: "Uuid",
