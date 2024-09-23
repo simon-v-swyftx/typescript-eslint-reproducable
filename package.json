@@ -9,6 +9,5 @@
   "workspaces": [
     "packages/*"
   ],
-  "private": true,
-  "packageManager": "yarn@4.0.2"
+  "private": true
 }

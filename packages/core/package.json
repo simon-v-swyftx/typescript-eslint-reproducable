@@ -1,0 +1,23 @@
+{
+  "name": "@company/core",
+  "private": true,
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "ts": "./src/index.ts",
+      "node": "./build/index.js"
+    }
+  },
+  "main": "./build/index.js",
+  "scripts": {
+    "build": "npm run -T tsc -b",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "uuid": "^10.0.0",
+    "typescript": "^5.5.3"
+  },
+  "devDependencies": {
+    "@types/uuid": "^10"
+  }
+}
